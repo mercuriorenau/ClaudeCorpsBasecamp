@@ -3,4 +3,14 @@ __pycache__/
 *.pyc
 .env
 .venv/
-results/
+
+# The answer key and everything derived from it stay local, so the discovery prompts can never see it.
+# truth/: answer key, known stale values (they reveal answers), manual labels (they reveal which answers were right).
+truth/*
+!truth/README.md
+
+# results/: per-run folders and results/latest/ contain expected answers, so they stay local too.
+# history.csv (metrics only) and SCHEMA.md (column docs) are safe to track.
+results/*
+!results/history.csv
+!results/SCHEMA.md

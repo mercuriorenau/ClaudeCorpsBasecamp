@@ -1,0 +1,55 @@
+{
+  "arm_folders": {
+    "simple": "simple-discovery",
+    "complex": "complex-discovery"
+  },
+  "verified_statuses": ["answered", "second-checked"],
+
+  "abstention_markers": ["", "abstain", "abstained", "n/a", "na", "unknown", "none", "null", "-"],
+  "abstention_phrases": [
+    "cannot determine", "can't determine", "cannot be determined",
+    "cannot verify", "can't verify", "could not verify", "unable to verify",
+    "not published", "has not been published", "not been published",
+    "not available", "not yet available",
+    "unable to find", "could not find", "couldn't find",
+    "no official source", "no official information",
+    "not been announced", "has not been announced", "not announced",
+    "cannot be known", "can't be known", "no way to know", "not possible to know",
+    "cannot predict", "can't predict", "impossible to predict",
+    "i don't know", "i do not know",
+    "need more information", "more information is needed", "need more details",
+    "it depends", "depends on"
+  ],
+  "hedge_phrases": [
+    "it depends", "depends on", "maybe", "possibly", "unclear",
+    "not sure", "uncertain", "not certain", "in some cases"
+  ],
+
+  "competing_number_ratio": [0.5, 2.0],
+  "year_range": [1900, 2100],
+  "per_month_words": ["per month", "a month", "monthly", "/mo", "/month", "each month"],
+  "per_year_words": ["per year", "a year", "annual", "annually", "yearly", "/yr", "/year", "each year"],
+
+  "suggested_correct_coverage": 0.8,
+  "stopwords": [
+    "the", "and", "for", "with", "via", "incl", "including", "are", "can", "may", "who", "their",
+    "that", "this", "from", "into", "under", "over", "than", "per", "your", "you", "they", "them",
+    "its", "has", "have", "not", "but", "any", "all", "each", "other", "also", "etc", "such", "out"
+  ],
+
+  "gov_domain_suffixes": [".gov", ".us", ".mil"],
+  "multi_label_suffixes": ["state.co.us", "co.us", "k12.co.us"],
+
+  "critical_error": {
+    "always_categories": ["eligibility yes/no"],
+    "categories_if_question_matches": {
+      "numeric threshold": "\\bincome\\b"
+    }
+  },
+
+  "bootstrap": {
+    "n_resamples": 2000,
+    "seed": 20261105,
+    "confidence": 0.95
+  }
+}

@@ -1,0 +1,14 @@
+﻿QID,Final Answer,Citation,Evidence,Abstain,Confidence,Question
+FAKE-ALPHA-01,1234 per month,https://alpha.fake-agency.example.gov/limits,FAKE quote,FALSE,0.9,
+FAKE-ALPHA-02,"100 (single), 200 (couple)",https://alpha.fake-agency.example.gov/limits,FAKE quote,FALSE,0.9,
+FAKE-ALPHA-03,150% of FPL,https://alpha.fake-agency.example.gov/limits,FAKE quote,FALSE,0.9,
+FAKE-BETA-01,Yes.,https://www.fake-beta.example.gov/rules,FAKE quote,FALSE,0.9,
+FAKE-BETA-02,"Yes, generally",https://www.fake-beta.example.gov/rules,FAKE quote,FALSE,0.8,
+FAKE-BETA-03,"No, the program is not available for tax year 2099.",https://www.fake-beta.example.gov/rules,FAKE quote,FALSE,0.9,
+FAKE-GAMMA-01,"Online portal,
+or a paper application mailed to the fake county office",https://gamma.fake-agency.example.gov/apply,"FAKE ""quoted"" evidence, with comma",FALSE,0.7,
+FAKE-GAMMA-02,November 1 through April 30,https://gamma.fake-agency.example.gov/apply,FAKE quote,FALSE,0.7,
+FAKE-DELTA-01,$500 per year,https://delta.fake-agency.example.gov/benefit,FAKE quote,FALSE,0.6,
+FAKE-ABS-01,Cannot determine; no official source has published this.,,,FALSE,0.2,
+,Unknown,,,FALSE,,Will Fake Program Beta be renewed next year?
+FAKE-NOPE-99,42,,,FALSE,,
