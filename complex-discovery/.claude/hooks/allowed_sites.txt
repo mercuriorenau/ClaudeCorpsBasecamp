@@ -1,0 +1,22 @@
+# Approved websites for Chat B.
+# A site is allowed if its address ends with one of these (so "cdhs.colorado.gov" matches "colorado.gov").
+# One per line. Lines starting with # are ignored.
+
+# Colorado state government
+colorado.gov
+state.co.us
+healthfirstcolorado.com
+coloradowic.gov
+
+# Federal government
+usda.gov
+hhs.gov
+cms.gov
+medicaid.gov
+ssa.gov
+irs.gov
+ecfr.gov
+federalregister.gov
+govinfo.gov
+congress.gov
+uscode.house.gov

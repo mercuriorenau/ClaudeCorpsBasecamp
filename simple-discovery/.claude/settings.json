@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Edit(./answers.csv)"
+    ],
+    "deny": [
+      "Read(//c/Users/Fernando/Documents/answer-key-private/**)",
+      "Edit(//c/Users/Fernando/Documents/answer-key-private/**)"
+    ]
+  }
+}
