@@ -4,3 +4,11 @@ __pycache__/
 .env
 .venv/
 results/
+
+# Eval: never commit the answer key, hook logs, or in-progress answers
+*answer-key*/
+*answer_key*
+chat-*/.claude/logs/
+chat-*/answers.csv
+*-discovery/.claude/logs/
+*-discovery/answers.csv
