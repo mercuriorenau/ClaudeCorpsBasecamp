@@ -30,3 +30,13 @@ Chat B's hooks need Python 3 on the computer (`python --version`).
 
 ## Versions
 Each change to Chat B's skills or hooks is a new commit tagged `chat-b-v1`, `chat-b-v2`, and so on. A new version replaces the best one only if it scores better across 3 runs.
+
+## Complex setup versions
+
+- **v1** (rounds 1 and 2): 4 skills, CLAUDE.md, verifier (WebFetch only), 3 hooks.
+- **v2** (round 3): fixes from round 2, where the complex chat abstained on 31 of 46.
+  - The verifier can use the browser, and reports `UNABLE TO CHECK` when it can't open a page, instead of `NOT FOUND`. A page the verifier couldn't open no longer forces an abstention.
+  - Counterweight to the abstain rules: if an official page you opened answers the question, answer it.
+  - If WebFetch is blocked, read the page in the browser; use browser text for verbatim quotes.
+  - The verifier is pre-approved, the chat works without asking questions, and it saves in its own folder.
+  - Both chats are blocked from `truth/` and `results/`.

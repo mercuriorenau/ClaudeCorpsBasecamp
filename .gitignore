@@ -14,3 +14,9 @@ truth/*
 results/*
 !results/history.csv
 !results/SCHEMA.md
+
+# Discovery runs: hook logs and in-progress answers stay local
+*-discovery/.claude/logs/
+*-discovery/answers.csv
+*answer-key*/
+*answer_key*

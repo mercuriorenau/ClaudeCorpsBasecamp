@@ -8,7 +8,7 @@ description: Before giving any benefits answer, copy the exact words from the of
 You may only give an answer you can prove with words copied from an official page you opened.
 
 ## How to do it
-1. Open the official page or document with WebFetch.
+1. Open the official page or document. WebFetch returns a summary, not the page's exact words, so for the quote itself read the page text in the Chrome browser whenever you can. If WebFetch is blocked, the browser is the way in.
 2. Find the exact sentence or table row that answers the question.
 3. Copy it word for word, along with the URL. If the task has a column for a supporting quote, this is what goes in it.
 4. Write your answer only from that quote.
