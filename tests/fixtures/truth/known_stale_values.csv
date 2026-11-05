@@ -1,0 +1,5 @@
+question_id,value,rule,reason,source_note
+FAKE-ALPHA-01,1111,stale,FAKE: last year's fixture value,fixture
+FAKE-ALPHA-01,999,review,"FAKE: alternate standard, needs a human",fixture
+FAKE-DELTA-01,450,stale,FAKE: old fixture value,fixture
+FAKE-BETA-03,Yes,stale,FAKE: program ended in fixture-land,fixture
