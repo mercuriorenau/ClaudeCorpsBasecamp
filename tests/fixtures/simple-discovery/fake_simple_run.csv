@@ -1,0 +1,14 @@
+question_id,answer,source_url,supporting_quote,abstain,confidence
+FAKE-ALPHA-01,"$1,234",https://alpha.fake-agency.example.gov/limits,FAKE quote,false,high
+FAKE-ALPHA-02,$100 single; $200 couple,https://alpha.fake-agency.example.gov/limits,FAKE quote,false,high
+FAKE-ALPHA-03,175%,https://alpha.fake-agency.example.gov/limits,FAKE quote,false,medium
+FAKE-BETA-01,Yes,https://www.fake-beta.example.com/rules,FAKE quote,false,high
+FAKE-BETA-02,"Yes, but it depends on the filer",https://www.fake-beta.example.gov/rules,FAKE quote,false,low
+FAKE-BETA-03,Yes,https://www.fake-beta.example.gov/rules,FAKE quote,false,high
+FAKE-GAMMA-01,Apply online through the portal or mail a paper application to the county office,https://gamma.fake-agency.example.gov/apply,FAKE quote,false,high
+FAKE-DELTA-01,$450,https://delta.fake-agency.example.gov/benefit,FAKE quote,false,high
+FAKE-ABS-01,,,,true,low
+FAKE-ABS-02,"Yes, it will be renewed",https://www.fake-beta.example.gov/rules,FAKE quote,false,high
+FAKE-EMPTY-01,"$5,000",https://delta.fake-agency.example.gov/benefit,FAKE quote,false,high
+FAKE-ALPHA-01,"$9,999",https://alpha.fake-agency.example.gov/limits,FAKE duplicate,false,high
+
