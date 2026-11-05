@@ -9,7 +9,9 @@
       "Read(//c/Users/Fernando/Documents/answer-key-private/**)",
       "Edit(//c/Users/Fernando/Documents/answer-key-private/**)",
       "Edit(./.claude/**)",
-      "Edit(./CLAUDE.md)"
+      "Edit(./CLAUDE.md)",
+      "Read(//c/Users/Fernando/Documents/ClaudeCorpsBasecamp/truth/**)",
+      "Read(//c/Users/Fernando/Documents/ClaudeCorpsBasecamp/results/**)"
     ]
   },
   "hooks": {

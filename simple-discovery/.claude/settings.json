@@ -7,7 +7,9 @@
     ],
     "deny": [
       "Read(//c/Users/Fernando/Documents/answer-key-private/**)",
-      "Edit(//c/Users/Fernando/Documents/answer-key-private/**)"
+      "Edit(//c/Users/Fernando/Documents/answer-key-private/**)",
+      "Read(//c/Users/Fernando/Documents/ClaudeCorpsBasecamp/truth/**)",
+      "Read(//c/Users/Fernando/Documents/ClaudeCorpsBasecamp/results/**)"
     ]
   }
 }
